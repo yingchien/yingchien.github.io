@@ -1,0 +1,15 @@
+{
+  "name": "yingchien.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yingchien/yingchien.github.io.git",
+  "author": "Ying Chien Luo",
+  "license": "MIT",
+  "scripts": {
+    "start": "notablog generate . && nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
