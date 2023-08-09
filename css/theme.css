@@ -670,6 +670,10 @@ pre.Code code {
   pointer-events: none;
 }
 
+.Image--Index {
+  pointer-events: auto;
+}
+
 .Image--FullWidth {
   width: calc(100vw - 15px);
 }
